@@ -21,9 +21,9 @@ Resources:
           # Instalar git
           yum install git -y
 
-          # Clonar repo (CAMBIA ESTO)
-          git clone https://github.com/teban-coder/BTG-Pactual.git
-          cd BTG-Pactual.git
+          # Clonar repo 
+          git clone https://github.com/teban-coder/BTG-PACTUAL-PRUEBA-TECNICA.git
+          cd BTG-PACTUAL-PRUEBA-TECNICA.git
 
           # Construir y correr Docker
           docker build -t btg-backend .
